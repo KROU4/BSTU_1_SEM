@@ -1,0 +1,12 @@
+$font-size:25px;
+@import 'heading.scss';
+@import 'texts.scss';
+h1{
+    font-size:$font-size;
+}
+.text{
+    @function font-size() {
+        @return $font-size/1.5;
+    }
+    font-size:font-size();
+}

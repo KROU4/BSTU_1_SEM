@@ -1,0 +1,71 @@
+const car = {
+  make: 'Honda',
+  model: 'Civic',
+  drive: function() {
+    console.log('Vroom!');
+  }
+};
+
+// Таким образом, мы можем добавить метод drive к объекту car с помощью литерала.
+
+------------------------------------------------------------
+
+1. Динамическое добавление с помощью квадратных скобок: (тоже самое что и литералл, только другая запись)
+
+const obj = {};
+obj['name'] = 'John';
+obj['age'] = 30;
+
+console.log(obj); // {name: 'John', age: 30}
+
+2. Добавление с помощью оператора расширения (spread):
+
+const obj = {};
+const newObj = { name: 'John', age: 30 };
+
+Object.assign(obj, newObj);
+
+console.log(obj); // {name: 'John', age: 30}
+
+3. Добавление с помощью синтаксиса для объявления объекта: (литералл)
+
+const obj = {
+  name: 'John',
+  age: 30
+};
+
+console.log(obj); // {name: 'John', age: 30}
+
+4. Динамическое добавление методов и свойств с помощью defineProperty:
+
+const obj = {};
+
+Object.defineProperty(obj, 'name', {
+  value: 'John',
+  writable: true,
+  configurable: true,
+  enumerable: true
+});
+
+Object.defineProperty(obj, 'age', {
+  value: 30,
+  writable: true,
+  configurable: true,
+  enumerable: true
+});
+
+console.log(obj); // {name: 'John', age: 30}
+
+
+5. С помощью свойства prototype можно добавлять новые свойства и
+методы к конструкторам объектов. Добавленные к конструктору свойства и
+методы будут также добавлены ко всем объектам, которые были созданы
+данным конструктором. Например, Gruppa.prototype.kurs=this.kurs.
+
+------------------------------------------------------------
+
+InstanceOf в js позволяет проверить, является ли объект экземпляром определенного класса. Это происходит с помощью оператора instanceof. Например: 
+
+let obj = new Object(); 
+
+console.log(obj instanceof Object); // выведет true

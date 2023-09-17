@@ -1,0 +1,24 @@
+games {
+    display: table;
+    border-collapse: collapse;
+    margin:10px;
+}
+game, head {
+    display: table-row;
+}
+gtitle, gauthor, gyear, gstory {
+    display: table-cell;
+    border: 1px solid rgb(70, 129, 136);
+    padding: 5px;
+    text-align: center;
+    background: rgb(161, 219, 202);
+    font-size: 20px;
+    font-weight: 700;
+}
+title, author, year, story {
+    display: table-cell;
+    border: 1px solid rgb(140, 124, 103);;
+    padding: 5px;
+    background-color: rgb(226, 208, 184);
+    font-size: 17px;
+}

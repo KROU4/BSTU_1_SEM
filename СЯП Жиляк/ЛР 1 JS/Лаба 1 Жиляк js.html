@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба номер 1 Жиляк</title>
+    <script>
+        document.write("Я изучаю JavaScript.");
+
+        function f1() {
+            
+         alert ("Вас приветствует учебный центр");
+        var name = prompt ("Введите имя", "Пользователь");
+        alert ("Добро пожаловать на наши курсы, " + name);
+        var designer = confirm ("Хотите стать Web-дизайнером?");
+        if (designer == true) {
+            alert ("Учите стили CSS и JavaScript!");
+        } else {
+            alert ("Упускаете время!");
+        }
+    }
+
+        function f2() {
+            
+        console.log (2 + 2); 
+        console.log ("2" + "2");
+        document.writeln (22 + "5"); 
+        document.writeln ("5" + 22);
+        alert ("Результатом сложения строки и числа всегда будет строка");
+    }
+
+        function f3() {
+            
+         var x = prompt ("Введите число X");
+        var y = prompt ("Введите число Y");
+        solve1 = ((35 * y * 25 * x) / 5 + 232);
+        alert ("(35 * y * 25 * x) / 5 + 232 = " + solve1);
+        solve2 = ((8*y/x+5*x/y-43)*6);
+        alert ("(8*y/x+5*x/y-43)*6 = " + solve2);
+        solve3 = (solve1 % solve2);
+        document.write ("<br>")
+        document.write ("<br>")
+        document.writeln (solve3);
+        alert (solve3); 
+    }
+
+      function f4() {
+        
+        var samsung = prompt ("Введите любое число:");
+        if (((samsung<20  || samsung>40) && samsung !=15) && samsung%5==0) {
+            alert ("Правильное значение");
+        } else {
+            alert ("Не правильное значение");
+        } 
+    }
+
+      function f5() {
+        
+        var i1 = prompt ("Введите 1-ое число");
+        var i2 = prompt ("Введите 2-ое число");
+        i1 = Number.parseInt (i1);
+        i2 = Number.parseInt (i2);
+        if (i1>i2) {
+            alert ("Число 1 больше числа 2");
+        } else {
+            alert ("Число 1 меньше числа 2");
+        }
+        (i1>i2) ? alert ("Число 1 больше числа 2") : alert ("Число 1 меньше числа 2"); 
+
+    }
+
+      function f6() {
+    
+        var date = new Date();
+        var weekday = date.getDay();
+        switch (weekday) {
+            case 0:
+            alert ("Сегодня Воскресенье")
+            break;
+
+            case 1:
+            alert ("Сегодня Понедельник")
+            break;
+
+            case 2:
+            alert ("Сегодня Вторник")
+            break;
+
+            case 3:
+            alert ("Сегодня Среда")
+            break;
+
+            case 4:
+            alert ("Сегодня Четверг")
+            break;
+
+            case 5:
+            alert ("Сегодня Пятница")
+            break;
+
+            case 6:
+            alert ("Сегодня Суббота")
+            break;     
+        }    
+    }
+
+     function f7() {
+        
+        var chislo = prompt ("Введите число");
+        chislo = Number.parseInt(chislo);
+
+        function int2bin(binary) {
+            return (binary >>> 0).toString(2);
+        }
+        alert ("Ваше число в двоичной системе: " + int2bin(chislo));
+
+        function int28(eight) {
+            return (eight >>> 0).toString(8);
+        }
+        alert ("Ваше число в восьмеричной системе: " + int28(chislo));
+
+        function int216(shesnadchat) {
+            return (shesnadchat >>> 0).toString(16);
+        }
+        alert ("Ваше число в шестнадцатеричной системе: " + int216(chislo));
+    }
+        </script>
+</head>
+<body>
+  <p> <button onclick="f1()">Запустить функцию №1</button> </p>
+  <p> <button onclick="f2()">Запустить функцию №2</button> </p>
+  <p> <button onclick="f3()">Запустить функцию №3</button> </p>
+  <p> <button onclick="f4()">Запустить функцию №4</button> </p>
+  <p> <button onclick="f5()">Запустить функцию №5</button> </p>
+  <p> <button onclick="f6()">Запустить функцию №6</button> </p>
+  <p> <button onclick="f7()">Запустить функцию №7</button> </p>
+  <footer>
+    <h1><font color="red" size="6" face="Arial Black">:)</font></h1>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.nav>ul>li {
+    float:left;
+    width:300px;
+    position: relative;
+}
+.nav li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    background: yellow;
+    border: 1px solid black;
+    padding: 8px;
+    text-decoration: none;
+}
+.nav li .second a {
+    display: block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(247, 120, 120);
+    border: 1px dotted black;
+    padding: 8px;
+    text-decoration: none;
+}       
+.nav li .second {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left:0;
+}
+.nav li:hover .second{
+    display: block;
+    text-decoration: none;
+    
+}
+.nav li li {
+    width:180px;
+}

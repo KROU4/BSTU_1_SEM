@@ -1,0 +1,15 @@
+.photo {
+  display: inline-block;
+  width: 24%;
+  height: 100%;
+  text-align: center;
+}
+.photo img {
+  min-width: auto;
+  min-height: 100%;
+}
+
+.grid_item_7 .photo {
+  width: 27%;
+  height: auto;
+}

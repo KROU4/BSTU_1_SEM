@@ -1,0 +1,22 @@
+body{
+    background-color: hwb(0 45% 53%);
+}
+.form{
+    text-align: left; 
+    border-spacing: 10px;
+    
+    
+   
+}
+.fl{
+    width: 450px;
+    margin: auto;
+   
+ }
+ .leg{
+     font-weight: bold;
+ }
+button{
+    border-radius: 2em ;
+    background-color:lightslategray
+}

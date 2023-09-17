@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xs:element name="games">
+<xs:complexType>
+<xs:sequence>
+    <xs:element name="head">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="gauthor" type="xs:string"/>
+        <xs:element name="gtitle" type="xs:string"/>
+        <xs:element name="gyear" type="xs:string"/>
+        <xs:element name="gstory" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="game">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="author" type="xs:string"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="year" type="xs:string"/>
+        <xs:element name="story" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="game">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="author" type="xs:string"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="year" type="xs:string"/>
+        <xs:element name="story" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+    <xs:element name="game">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="author" type="xs:string"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="year" type="xs:string"/>
+        <xs:element name="story" type="xs:string"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

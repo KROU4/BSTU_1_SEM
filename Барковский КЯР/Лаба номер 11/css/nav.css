@@ -1,0 +1,22 @@
+.nav li {
+  display: inline;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 30px;
+  float: right;
+  background-color: #EDC7B7;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.nav li:first-child {
+  margin-right: 20px;
+}
+
+a {
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}

@@ -1,0 +1,39 @@
+h1, h2, h3 {
+    color: #800080;
+    font-family: "Monotype Corsiva";
+}
+
+@font-face {
+    font-family: Monotype Corsiva;
+    src: url(monotypecorsiva.ttf);
+}
+
+.pod1 { 
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    size: 18pt;
+    list-style: circle;
+}
+.pod2 {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    size: 20pt;
+    list-style: square;
+}
+.pod3 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    size: 22pt;
+    list-style: disc;
+}
+table td {
+    color: purple;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+span {
+    color: #FF1493
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style_for_ex2.xsl"?>
+<catalog>
+    <student>
+        <name>Велютич Дмитрий</name>
+        <mark>10</mark>
+    </student>
+    <student>
+        <name>Владимир Сацюк</name>
+        <mark>9</mark>
+    </student>
+    <student>
+        <name>Авдей Алексей</name>
+        <mark>8</mark>
+    </student>
+    <student>
+        <name>Павел Лобарев</name>
+        <mark>7</mark>
+    </student>
+    <student>
+        <name>Никита Турчинович</name>
+        <mark>6</mark>
+    </student>
+    <student>
+        <name>Данила Ломако</name>
+        <mark>5</mark>
+    </student>
+    <student>
+        <name>Анастасия Бацкалевич</name>
+        <mark>4</mark>
+    </student>
+    <student>
+        <name>Пригодич Татьяна</name>
+        <mark>3</mark>
+    </student>
+    <student>
+        <name>Кочубеева Елизавета</name>
+        <mark>2</mark>
+    </student>
+    <student>
+        <name>Васюшко Дарья</name>
+        <mark>1</mark>
+    </student>
+</catalog>

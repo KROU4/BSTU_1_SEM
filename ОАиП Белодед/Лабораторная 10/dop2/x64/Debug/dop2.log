@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 10\dop2\Source.cpp(13,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  dop2.vcxproj -> C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 10\9,2\x64\Debug\dop2.exe

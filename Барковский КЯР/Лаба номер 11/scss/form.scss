@@ -1,0 +1,50 @@
+$form-color: #EEE2DC;
+$submit-color:#EDC7B7;
+$black:#000000;
+
+@mixin padding($padding){
+    padding-top:$padding;
+    padding-bottom:$padding;
+    padding-left:$padding*2.1;
+    padding-right:$padding*2.1;
+}
+
+%label {
+    display: inline-block;
+    width: 10em;
+    height: 2em;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 15px;
+}
+
+label{
+    @extend %label;
+}
+
+form {
+    margin: 0;
+    padding: 5px;
+    width: 97.9%;
+    height: 96.9%;
+    background-color: $form-color;
+    font-size: 1.2em;
+    color: $black;
+    float: right;
+}
+
+
+.f1 {
+    @include padding(7px);
+    color: $black;
+    background-color: $submit-color;
+    margin-right: 5px;
+    border-radius: 7px;
+    box-shadow: 0 0 4px white;
+    bottom: 0;
+}
+
+span {
+    font-size: 150%;
+    font-weight: bold;
+}

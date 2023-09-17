@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+    gap: 20px;
+    height: 100vh;
+    align-items: stretch;
+
+    grid-template-areas:
+    "A A A A   A B B B   B B D D"
+    "A A A A   A B B B   B B D D"
+    "A A A A   A C C C   C C D D"
+    "A A A A   A C C C   C C D D";
+}
+
+.container div {
+    border: 2px solid black;
+    text-align: center;
+}
+
+#z1 {
+    padding-top: 50px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 4em;
+    letter-spacing: 0.7em;
+}
+
+.zag {
+    font-size: 2em;
+}
+
+.text {
+    display: block;
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 5px 0 5px;
+}
+
+#c1 {
+    grid-area: A;
+}
+
+#c2 {
+    grid-area: B;
+}
+
+#c3 {
+    grid-area: C;
+}
+
+#c4 {
+    grid-area: D; 
+}
+
+

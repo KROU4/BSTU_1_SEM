@@ -1,0 +1,10 @@
+div{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top:  30 + 50px;
+    display: inline-block;
+}
+.div1{
+    width: 64px;
+}

@@ -1,0 +1,32 @@
+﻿Сборка начата 14.12.2022 12:55:44.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\dop3.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\dop3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(63,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(77,11): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(37,9): warning C4101: n: неиспользованная локальная переменная
+     1>C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(87,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\x64\Debug\dop3.exe" /INCREMENTAL /ILK:"x64\Debug\dop3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\x64\Debug\dop3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\x64\Debug\dop3.lib" /MACHINE:X64 x64\Debug\Source.obj
+         dop3.vcxproj -> C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\x64\Debug\dop3.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\dop3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\dop3.tlog\dop3.lastbuildstate".
+     1>Сборка проекта "C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\dop3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\dop3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(63,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+         C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(77,11): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+         C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(37,9): warning C4101: n: неиспользованная локальная переменная
+         C:\Users\Avdey\OneDrive\Рабочий стол\оаип\доп задания\15ая лаба\dop3\Source.cpp(87,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:21.11

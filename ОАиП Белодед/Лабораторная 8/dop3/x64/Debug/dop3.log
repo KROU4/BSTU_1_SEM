@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 8\dop3\Source.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 8\dop3\Source.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  dop3.vcxproj -> C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 8\Лаба 8\x64\Debug\dop3.exe

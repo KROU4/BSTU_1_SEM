@@ -1,0 +1,23 @@
+$border:1px solid black;
+$text-align:justify;
+$font-family:sans-serif;
+
+.text{
+    display:inline-block;
+    border:$border;
+    font-family: $font-family;
+    text-align: $text-align;
+    overflow: hidden;
+    height: 100%;
+    width: 32.6%;
+}
+.grid_item_7{
+   .text{ display:inline-block;
+    border:$border;
+    font-family: $font-family;
+    text-align: $text-align;
+    overflow: hidden;
+    height: 40%;
+    width: 70%;
+   }
+}

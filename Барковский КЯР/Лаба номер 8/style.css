@@ -1,0 +1,21 @@
+aside {
+    width: 25%;
+    float: right;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #8B0000;
+  }
+
+  a:hover {
+    color: green;
+  }
+
+  a:active {
+    color: rgb(184, 134, 11);
+  }

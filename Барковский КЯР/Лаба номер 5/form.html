@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация постоянного клиента</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+
+  <body>
+    <form>
+      <h3>Регистрация постоянного клиента</h3>
+      <div><label>Фамилия: </label><input type="text" /></div>
+      <div><label>Имя:</label><input type="text" /></div>
+      <div><label>Отчество:</label><input type="text" /></div>
+      <div><label>Ваш возраст: </label><input type="number" /></div>
+      <div class="sex">
+        <span>Ваш пол:</span>
+        <label><input type="checkbox" value="Мужской" /> Мужской</label>
+        <label><input type="checkbox" value="Женский" /> Женский</label>
+      </div>
+      <div><label>Email:</label><input type="email" /></div>
+      <div><label>Страна проживания:</label><input type="text" /></div>
+      <div>
+        <label for="country">Откуда узнали о нас?</label>
+        <select name="country">
+          <option value="none">Выберите вариант</option>
+          <option value="Друзья рассказали">Друзья рассказали</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Реклама">Реклама</option>
+        </select>
+      </div>
+      <div><label>Дата заполнения </label><input type="date" /></div>
+      <div class="buttons">
+        <button type="submit">Регистрация</button>
+        <button type="submit">Отмена</button>
+      </div>
+    </form>
+  </body>
+</html>

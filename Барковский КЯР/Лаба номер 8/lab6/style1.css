@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Neuron;
+    src: url(fonts/ofont.ru_Neuron.ttf);
+}
+
+figure {
+    border: 2px double olivedrab; /* Рамка вокруг фотографии */
+    display: inline-block;
+    padding: 15px; 
+    margin-bottom: 10px; /* Отступ снизу */  
+    margin-right: 10px; /* Отступ справа */
+    background: darkolivegreen; /* Цвет фона */ 
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 10px;
+    margin-top: auto;
+}
+
+figcaption {
+    font-family: "Neuron";
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(15, 48, 44);
+}
+
+img {
+    width: 280px;
+    height: 280px;
+}
+
+body {
+    float: left;
+}

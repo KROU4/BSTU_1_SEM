@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style5.css" media="(min-width: 1280px) and (max-width: 1920px)">
+    <title>Document</title>
+    <style>
+        @import "style4.css"(min-width: 768px) and (max-width: 1280px);
+
+        @media (min-width: 480px) and (max-width: 768px) {
+            footer {
+                color: red;
+            }
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <a href="#p1">
+                <li>Заголовок</li>
+            </a>
+            <a href="#p2">
+                <li>3 колонки</li>
+            </a>
+            <a href="#p3">
+                <li>Галерея</li>
+            </a>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="title">Заголовок <div class="byrger" id="p1">&#8801</div>
+        </div>
+
+        <div class="firstrow">
+            <div class="cells">
+                <p>Ячейка 1</p>
+                <div class="figure1">
+                    <p><video controls="controls" src="srthellcat.mp4" /></p>
+                    <p><video controls="controls" src="srthellcat.mp4" /></p>
+                    <p><video controls="controls" src="srthellcat.mp4" /></p>
+                </div>
+            </div>
+
+            <div class="cells" id="p2">
+                <p>Ячейка 2</p>
+                <p>
+                    Flexbox-верстка — разметка макетов веб-страниц, которая
+                    позволяет автоматически настраивать ширину элементов,
+                    находящихся внутри flex-контейнера. Для применения данного
+                    способа разметки следует учитывать разделение применяемых
+                    свойств на свойства flex-контейнера и свойства flex-элемента.
+                    С помощью display: flex; осуществляется преобразование
+                    HTML-элемента в flex-контейнер, а элементы находящийся внутри
+                    него в flex-элементы. По умолчанию flex-элементы помещаются
+                    друг за другом в одной строке. Свойство flex-flow позволяет
+                    выбрать направление отображения элементов в контейнере, а
+                    также указать их перенос на следующую строку. Первое значение
+                    определяет направление, а второе перенос на следующую строку.
+                </p>
+            </div>
+
+            <div class="cells">
+                <p>Ячейка 3</p>
+                <audio controls src="playboi-carti-immortal-slowed_456242505.mp3"></audio>
+                <audio controls src="playboi-carti-immortal-slowed_456242505.mp3"></audio>
+                <audio controls src="playboi-carti-immortal-slowed_456242505.mp3"></audio>
+            </div>
+
+        </div>
+    </div>
+    <footer id="p3">
+        <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure>
+        <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure> <figure>
+            <div><img src="Screenshot_18.png" /> </div>
+            <figcaption>Dodge Challenger SRT Hellcat</figcaption>
+        </figure>
+    </footer>
+</body>
+
+</html>

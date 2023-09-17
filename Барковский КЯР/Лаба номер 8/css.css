@@ -1,0 +1,422 @@
+ul li { 
+  display: inline;
+  float: left;
+  zoom: 200%;
+}
+ul a {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  background-color: yellow;
+  text-decoration: none;
+  color: blue;
+}
+
+.one .photo {
+  float: left;
+  position: relative;
+  width: 21.6%;
+  padding-bottom: 21.6%;
+  margin: 1.7%;
+}
+
+.one img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.one #p1:hover {
+  transform: scale(0.5);
+}
+
+.one #p2:hover {
+  transform: rotate(45deg);
+}
+
+.one #p3:hover {
+  transform: translate(50px);
+}
+
+.one #p4:hover {
+  transform: skew(-20deg);
+}
+
+.two .photo {
+  float: left;
+  position: relative;
+  width: 21.6%;
+  padding-bottom: 21.6%;
+  margin: 1.7%;
+  perspective: 5000px;
+}
+
+.two img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding-top: 21.7px;
+}
+
+.two #p5 {
+  transform: rotateX(-60deg);
+  transition: 1s;
+}
+
+.two #p6 {
+  transform: rotateY(-60deg);
+  transition: 1s;
+}
+
+.two #p7 {
+  transform: rotateX(60deg);
+  transition: 1s;
+}
+
+.two #p8 {
+  transform: rotateY(60deg);
+  transition: 1s;
+}
+
+.three button {
+  width: 18%;
+  height: 100px;
+  float: left;
+  text-align: center;
+  margin: 1%;
+  background-color: white;
+  color: black;
+}
+
+.three #b1:hover {
+  background-color: black;
+  color: white;
+}
+
+.three #b2:hover {
+  border: solid 10px red;
+  outline: solid 10px yellow;
+}
+
+.three #b3:hover {
+  border-top: 10px solid green;
+  border-bottom: 10px solid green;
+  border-left: none;
+  border-right: none;
+}
+
+.three #b4:hover {
+  border-left: 10px solid blue;
+  border-right: 10px solid blue;
+  border-top: none;
+  border-bottom: none;
+}
+
+.three #b5:hover {
+  background: radial-gradient(yellow 15%, #ff00ff 40%, #00bfff 80%);
+  color: black;
+  font-weight: 700;
+  border: none;
+}
+
+.four img {
+  margin-left: 3%;
+  height: 300px;
+  position: absolute;
+}
+
+@keyframes animationA {
+  0% {
+    transform: perspective(400px) rotateY(45deg);
+    left: 0;
+  }
+  50% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 0;
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 0;
+  }
+}
+
+@keyframes animationB {
+  0% {
+    transform: perspective(400px) rotateY(45deg);
+    left: 25px;
+  }
+  50% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 25px;
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 25%;
+    filter: blur(10px);
+  }
+}
+
+@keyframes animationC {
+  0% {
+    transform: perspective(400px) rotateY(45deg);
+    left: 50px;
+  }
+  50% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 50px;
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 48%;
+    filter: grayscale(1);
+  }
+}
+
+@keyframes animationD {
+  0% {
+    transform: perspective(400px) rotateY(45deg);
+    left: 75px;
+  }
+  50% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 75px;
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    left: 71%;
+    filter: invert(1);
+  } /*invert изменяет цвета на противоположные; */
+}
+
+.four .p1 {
+  z-index: 1; /* расположение слоев,приоритетность зависит от цифры,чем меньше цифра , тем меньше приоритет , и тем ниже оно располагается*/
+  animation: animationA 3s linear;
+  animation-fill-mode: forwards; /* по окончанию анимации элемент сохраняет стиль последнего ключевого кадра*/
+}
+
+.four .p2 {
+  z-index: 2;
+  animation: animationB 3s linear;
+  animation-fill-mode: forwards;
+}
+
+.four .p3 {
+  z-index: 3;
+  animation: animationC 3s linear;
+  animation-fill-mode: forwards;
+}
+
+.four .p4 {
+  z-index: 4;
+  animation: animationD 3s linear;
+  animation-fill-mode: forwards;
+}
+
+.five {
+    margin-top: 350px;
+}
+
+.five div {
+  height: 450px;
+  width: 550px;
+  border: 5px ridge coral;
+  margin: 20px auto;
+  padding: 5px;
+  position: relative;
+}
+
+@keyframes img {
+  from {
+    opacity: 0;
+  } /*прозрачность*/
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.five div img {
+  position: absolute; /*устанавливает абсолютное позиционирование элемента с тегом img*/
+  opacity: 0;
+  animation-name: img;
+  animation-duration: 25s; /*продолжительность анимации*/
+  transition-timing-function: linear; /*переход изменяется с постоянной скоростью*/
+  animation-iteration-count: infinite; /*бесконечная анимация*/
+  animation-direction: normal; /*воспроизведение с начала*/
+}
+
+.five div img:nth-child(1) {
+  animation-delay: 0s;
+} /*задержка воспроизведения анимации*/
+.five div img:nth-child(2) {
+  animation-delay: 5s;
+}
+.five div img:nth-child(3) {
+  animation-delay: 10s;
+}
+.five div img:nth-child(4) {
+  animation-delay: 15s;
+}
+.five div img:nth-child(5) {
+  animation-delay: 20s;
+}
+
+.six body {
+  background-color: whitesmoke;
+}
+
+.six div {
+  text-align: center;
+  margin: 100px;
+  position: relative;
+}
+
+@keyframes img1 {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+@keyframes img2 {
+  0% {
+    left: -200px;
+    transform: scale(1);
+  }
+  50% {
+    left: 0px;
+    transform: scale(1.2);
+  }
+  100% {
+    left: 200px;
+    transform: scale(1);
+  }
+}
+
+@keyframes img3 {
+    0% {
+        left: -100%;
+      }
+      50% {
+        left: 0px;
+      }
+      100% {
+        left: 100%;
+      }
+}
+
+@keyframes img4 {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes img5 {
+  0% {
+    left: -50px;
+    top: 0;
+  }
+  25% {
+    left: 50px;
+    top: 0;
+  }
+  50% {
+    left: 50px;
+    top: 100px;
+  }
+  75% {
+    left: -50px;
+    top: 100px;
+  }
+  100% {
+    left: -50px;
+    top: 0;
+  }
+}
+
+.six .n1 {
+  position: relative;
+  animation: img1 3s linear infinite normal;
+}
+
+.six .n2 {
+  position: relative;
+  animation: img2 3s linear infinite normal;
+}
+
+.six .n3 {
+  position: relative;
+  animation: img3 3s linear infinite normal;
+}
+
+.six .n4 {
+  position: relative;
+  animation: img4 3s linear infinite normal;
+}
+
+.six .n5 {
+  position: relative;
+  animation: img5 3s linear infinite normal;
+}
+
+.seven div {
+  margin: auto;
+  border: black solid 2px;
+  background-color: whitesmoke;
+  font-size: 24px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes morgen {
+  from {
+    color: red;
+  }
+  to {
+    color: green;
+  }
+}
+
+.seven div {
+  animation: morgen infinite 5s;
+}
+
+@keyframes z8
+{
+    0%{opacity: 0%;}
+    100%{opacity: 80%;}
+}
+
+h1 {
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.two h1, .three h1, .four h1{
+    display: inline-block;
+    text-align: center;
+}

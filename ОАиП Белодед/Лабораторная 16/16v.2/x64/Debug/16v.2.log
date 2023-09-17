@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 16\16v.2\Source.cpp(36,56): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 16\16v.2\Source.cpp(45,56): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 16\16v.2\Source.cpp(62,48): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 16\16v.2\Source.cpp(71,48): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  16v.2.vcxproj -> C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 16\16.1\x64\Debug\16v.2.exe

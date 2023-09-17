@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="main.css">
+    <title>7 lab</title>
+</head>
+<body>
+    <form class="form">
+        <fieldset class="fl"><!--Заголовки в формах <fieldset> позволяют сгруппировать желаемую часть формы 
+            и затем с помощью тэга <legend> установить желаемое заглавие-->
+        <textarea name="faculty">Факультет информационных технологий</textarea></br>
+        Имя: <br /><input type='text' id="name" /><br />
+        Фамилия:<br /> <input type='text' name="secondname" /><br />
+        <p>
+        Специальность :
+        <select name="specialty" id=""><!--Список <select> создает выпадающий список, элементы которого определяются с помощью тэга <option>-->
+            <option>ПОИТ</option>
+            <option>ИСиТ</option>
+            <option>ДЭВИ</option>
+        </select>
+        </p>
+        <br> Курс <br /><input name="rad" type="radio" value="1">1
+        <input name="rad" type="radio" value="2">2
+        <input name="rad" type="radio" value="3">3
+        <input name="rad" type="radio" value="4">4
+        <p>Предметы</p>
+        <input name="box" type="checkbox" value="ТРПО">ТРПО
+        <input name="box" type="checkbox" value="ОАИП">ОАИП
+        <input name="box" type="checkbox" value="СЯП">СЯП
+        <input name="box" type="checkbox" value="КЯР">КЯР
+        <input name="box" type="checkbox" value="МАТЕМ">Матем
+        <p><button>submit</button>
+        <button>reset</button></p>
+        <p><button type="button" onclick="fun1()">Напечатать</button></p>
+        </fieldset>
+    </form>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

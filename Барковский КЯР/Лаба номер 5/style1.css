@@ -1,0 +1,40 @@
+table.smart {
+    width: auto;
+	border-spacing:0;
+	height: auto;
+    margin: auto;
+}
+
+th, tr, td {
+    border: 2px ridge grey;
+    padding: 8px;
+    empty-cells: hide;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: black;
+    text-transform: capitalize;
+}
+
+* {
+    text-align: center;
+    color: white;
+}
+
+td:nth-child(4n + 2) {
+    background-color: #000BFF;
+}
+
+td:nth-child(4n + 3) {
+    background-color: purple;
+}
+
+td:nth-child(4n + 4) {
+    background-color: green;
+}
+
+td:nth-child(4n + 1) {
+    color: black;
+    font-weight: 550;
+}

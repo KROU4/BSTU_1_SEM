@@ -1,0 +1,38 @@
+table.raspisanie{
+	width: auto;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    margin: auto;
+}
+
+table, th, tr, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.peresechenie {
+    background-color: #0F3F49;
+    color: white;
+}
+
+tbody tr:first-of-type {
+    background-color: #63D471;
+}
+
+.days {
+    padding: 8px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-size: 18px;
+    background-color: #4E7D55;
+}
+
+* {
+    text-align: center;
+}
+
+.predmet {
+    text-align: left;
+    padding-left: 5px;
+}

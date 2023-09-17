@@ -1,0 +1,57 @@
+.a1 {
+    float: left;
+    position: relative;
+    width: 14.6%;
+    padding-bottom: 14.6%;
+    margin: 1%;       
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6, .c5, .c6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.b1 {
+    background:linear-gradient(blue, red);
+}
+
+.b2 {
+    background:
+    repeating-linear-gradient(
+      45deg,
+      red 0 20px,
+      blue 20px 40px
+    );
+}
+
+.b3 {
+    background:radial-gradient(circle at 50% 50%,
+yellow, green)
+}
+
+.b4 {
+    background:repeating-radial-gradient(green -5px, green 11px, yellow 10px, yellow 25px)
+}
+
+.b5 {
+    background:linear-gradient(blue, purple);
+}
+
+.c5 {
+    background: radial-gradient(circle,
+    yellow 15%, rgba(0,255,0,0.8) 40%, transparent);  
+}
+
+.b6 {
+    background: linear-gradient(to bottom, 
+    black 0% 10%, grey, white 40% 70%,
+    blue 75% 85%, purple 90% 100%);
+}
+
+.c6 {
+    background: linear-gradient(to right,
+    yellow, green 55%, transparent);
+}

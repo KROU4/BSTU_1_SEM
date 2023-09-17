@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 11\dop3 15.1\Source.cpp(4,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 11\dop3 15.1\Source.cpp(6,9): warning C4101: i: неиспользованная локальная переменная
+  dop3 15.1.vcxproj -> C:\Users\KROU4\YandexDisk\Коды ПК\ОАиП Белодед\Лабораторная 11\dop3 15.1\x64\Debug\dop3 15.1.exe

@@ -1,0 +1,19 @@
+.text {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: sans-serif;
+  text-align: justify;
+  overflow: hidden;
+  height: 100%;
+  width: 32.6%;
+}
+
+.grid_item_7 .text {
+  display: inline-block;
+  border: 1px solid black;
+  font-family: sans-serif;
+  text-align: justify;
+  overflow: hidden;
+  height: 40%;
+  width: 70%;
+}

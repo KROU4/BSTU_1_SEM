@@ -1,0 +1,38 @@
+$margin-first:20px;
+$marginblocks:30px;
+$padding:50px;
+$border:1px solid black;
+$border-radius:7px;
+$background-color:#EDC7B7;
+$font-color: black;
+$font-size:20px;
+.nav{
+
+ li{
+    display:inline;
+    border: $border;
+    padding: 10px;
+    margin-left:$marginblocks;
+    float:right;
+    background-color:$background-color;
+    border-radius:$border-radius;
+    font-size:$font-size;
+ }
+ li:first-child{
+        margin-right:$margin-first;
+    }
+}
+
+a{
+    @if ($background-color == black == true){
+        color:white;
+    }
+    @else{
+        color:$font-color;
+    }
+    display:inline-block;
+    text-decoration: none;
+    padding-left:$padding;
+    padding-right:$padding;
+    font-size:$font-size;
+}
